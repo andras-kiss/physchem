@@ -12,3 +12,4 @@
 
 # gnuplot plot_sb
 pdflatex -shell-escape physchem.tex
+pdflatex -shell-escape physchem.tex
