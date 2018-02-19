@@ -1,0 +1,16 @@
+*.pdf
+!physchem.pdf
+!fizkem.pdf
+physchem.aux
+physchem.bbl
+physchem.blg
+physchem.lof
+physchem.log
+physchem.lot
+physchem.toc
+physchem.out
+*.log
+*.dep
+*.md5
+*.dpth
+*.auxlock
