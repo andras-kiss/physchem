@@ -11,4 +11,4 @@
 #gnuplot plot_transient
 
 # gnuplot plot_sb
-pdflatex -shell-escape phys_chem.tex
+pdflatex -shell-escape physchem.tex
