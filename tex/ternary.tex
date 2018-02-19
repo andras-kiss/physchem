@@ -1,0 +1,32 @@
+\fancyhead[LE,RO]{Ternary system -- ,,TER''}
+\fancyhead[LO,RE]{\thesection}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{\emph{Physical chemistry lab. practice for pharmacy students}}
+
+%\setcounter{section}{7}
+
+\begin{tikzpicture}
+\begin{ternaryaxis}[
+	%title=The water--chloroform--acetic acid ternary system,
+	xlabel=Weight percent of acetic acid,
+	ylabel=Weight percent of chloroform,
+	zlabel=Weight percent of water,
+	label style=sloped,
+	area style,
+]
+	\addplot3 table {
+	0 0.1 0.9
+	 
+	0.28 0.35 0.37
+	0.25 0.6 0.15
+	0.1 0.9 0
+	0 1 0
+	0 0 1
+	};
+	%\addlegendentry{$\gamma$FeNi}
+
+	%\node[inner sep=0.5pt,circle,draw,fill=white,pin=-15:\footnotesize Stainless Steel] at (axis cs:0.18,0.74,0.08) {};
+	
+\end{ternaryaxis}
+\end{tikzpicture}
+

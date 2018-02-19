@@ -1,0 +1,150 @@
+\fancyhead[LE,RO]{GYÓGYSZERBOMLÁS -- ,,GYB''}
+\fancyhead[LO,RE]{\thesection}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{\emph{Fizikai Kémia gyakorlatok gyógyszerész hallgatóknak}}
+
+\setcounter{section}{7}
+\section{Gyógyszerbomlás sebességének hőmérsékletfüggése}
+\subsection{Bevezetés}
+
+A gyakorlat során az \emph{Aspirin} (acetilszalicilsav) hidrolízisének kinetikailag elsőrendű reakciójának hőmérsékletfüggését vizsgáljuk.
+A sebességi állandója a következőképpen adható meg:
+
+\begin{equation}
+\label{eq:divider}
+        k
+        =
+        \frac
+                {1}
+                {t}
+	\ln
+	\frac{z}{z-x}
+\end{equation}
+
+ahol $t$ az idő, $z$ a reagens (jelen esetben a \emph{Aspirin}) kezdeti koncentrációja, $x$ pedig az elbomlott reagens koncentrációja.
+
+A reakció sebessége vagy a sebességi állandó értéke függ a hőmérséklettől.
+A hőmérsékletfüggést az \emph{Arrhenius egyenlet} írja le:
+
+\begin{equation}
+\label{eq:divider}
+        \frac
+                {d\ln k}
+                {dT}
+	=
+	\frac
+		{E}
+		{\mathrm{R}T^2}
+\end{equation}
+
+melynek integrált alakja:
+
+\begin{equation}
+\label{eq:divider}
+        k
+        =
+	A
+	e^{-E/( \mathrm{R} T)}
+\end{equation}
+
+illetve
+
+\begin{equation}
+\label{eq:divider}
+        \lg k
+        =
+        \lg A
+	-\frac{E}{2.303 \mathrm{R}T}
+\end{equation}
+
+Az egyenletben $A$ a preexponenciális tényező, $E$ az aktiválási energia, és R a gázállandó (R$ = 8.314$ J/Kmol).
+Az aktiválási energia meghatározható grafikus úton, ha az $\lg k - 1/T$ függvény meredekségét megmérjük és azt szorozzuk 2.303 $\times$ 8.314-el, amikor az $E$-t J/molban kapjuk meg.
+Ha két hőmérsékleten megmérjük a reakciósebességi együtthatót ($k_1$-t és $k_2$-t $T_1$ és $T_2$ hőmérsékleten) az aktiválási energia a következő képlettel számítható ki:
+
+\begin{equation}
+	E
+	=
+	2.303
+	\times
+	8.314
+	\lg
+	\frac{k_1}{k_2}
+	\frac{T_1 T_2}{T_1-T_2}
+\end{equation}
+
+\subsection{A gyakorlat kivitelezése}
+Az \emph{Aspirin} hidrolízise kinetikailag elsőrendű folyamat és az alábbiak szerint játszódik le (\ref{fig:salicilsav}. ábra).
+
+\begin{figure}
+\centering
+\schemedebug{false}
+\schemestart
+	\footnotesize \chemname{\chemfig{*6(-=-(-O-[::-60]([::-60]=O)-)=(-(-[::-60]OH)=[::60]O)-=)}}{Acetilszalicilsav}
+	\footnotesize \+
+	\footnotesize \chemfig{OH^{-}}\arrow(.mid east--.mid west){->[k][]}
+	\footnotesize \chemname{\chemfig{*6(-=-(-OH)=(-([::-60]-OH)=[::60]O)-=)}}{Szalicilsav} + CH$_3$COO$^-$
+\schemestop
+\caption{Az acetilszalicilsav lúgos hidrolízise.}
+\label{fig:salicilsav}
+\end{figure}
+
+A reakció szobahőmérsékleten igen lassú, ezért a méréseket magasabb hőmérsékleten végezzük.
+A reakció sebességi együtthatójának meghatározásához ismerni kell a reaktáns vagy a termék koncentrációjának változását a reakcióidővel.
+Jelen reakcióban a képződő szalicilsav Fe$^{3+}$ ionokkal alkotott stabil ibolyaszínű komplexét határozzuk meg spektrofotometriás módszerrel.
+A lúgos közegben lejátszódó reakcióelegyből meghatározott reakcióidőnél ismert mennyiségű mintákat veszünk, a reakciót befagyasztjuk a hőmérséklet és a [OH$^-$] hirtelen csökkentésével.
+Az előírt hígításokat követően a szalicilsav Fe(III)-komplexének koncentrációját spektrofotometriás úton meghatározzuk. Higításra lehet szükség, ha az abszorbancia 2 feletti, ekkor ugyanis a legtöbb műszer által mért érték nincs egyszerű egyenes arányosságban a koncentrációval, ami megbízhatatlan értéket eredményez. Célszerű ilyenkor $5 - 10 \times$ higítást végezni, és újramérni az abszorbanciát, majd megszorozni a higítással a koncentrációra kapott értéket.
+A $t = \infty$ reakcióidőhöz tartozó termékkoncentrációkat, amelyek megfelelnek az \emph{Aspirin} kezdeti koncentrációjának, igen nagy reakcióidőnél vett mintából lehet meghatározni.
+A méréseket két hőmérsékleten kell végrehajtani, ezeket a gyakorlatvezető határozza meg a gyakorlat kezdetén.
+A reakció Arrhenius paramétereinek meghatározása érdekében ajánlott hőmérséklet 313 és 353 K.
+
+1 db \emph{Aspirin} tablettát dörzsmozsárban elporítunk, és főzőpohárban kevés desztillált vízben oldunk, majd 100 cm$^3$-es mérőlombikokba szűrjük és jelig töltjük (törzsoldat). Az így kapott oldat telített lesz\footnote{Az \emph{Aszpirin} oldhatósága vízben $\sim$ 2 - 4 g / L, hőmérséklettől függően. Egy tabletta hatóanyagtartalma 500 mg.}.
+
+\textbf{A reakció indítása és nyomon követése:}
+
+\begin{enumerate}[(a)]
+\item Az Aspirin kezdeti koncentrációjának ($z$) meghatározása. A törzsoldatból 2-2 cm$^3$ mintát csiszolatos dugós Erlenmeyer lombikokba (alacsony és magas hőmérséklet) pipettázunk, hozzáadunk 3-3 cm$^3$ 0.25 M NaOH oldatot és a lombikokat belehelyezzük a választott hőmérsékletű termosztátokba. A 60. percben a reakciót mindkét lombikban befagyasztjuk (a lombikokat jeges vízbe állítjuk, 2-2 cm$^3$ 0.25 M sósavoldatot és 3-3 cm$^3$ FeCl$_3$ oldatot pipettázunk beléjük, majd desztillált vízzel 100 cm$^3$-re hígítjuk őket.)
+
+\item A $t$ időpillanatig elbomlott \emph{Aspirin} ($x$) koncentrációjának meghatározása. A törzsoldat maradékát a mérőlombikból két csiszolatos dugós Erlenmeyer lombikba töltjük át, kb. fele-fele térfogatban (nem mossuk!), termosztátba helyezzük őket, hozzápipettázunk 5 cm$^3$ pufferoldatot, és elindítjuk a stoppert ($t$ = 0). A lombik kivétele nélkül a bomlás 15, 20, 25, 30 és 35. percében 2 cm$^3$-es mintákat veszünk mindkét lombikból, amelyet az előkészített 25 cm$^3$-es mérőlombikokba töltünk. A lombikokat úgy készítjük elő, hogy belemérünk 0.5 cm$^3$ 0.25 M sósavoldatot, 0.5 cm$^3$ 0.1 M FeCl$_3$-at. Így a minta vételekor a lúgos hidrolízis leáll. Ne felejtsük el előzetesen feliratozni a lombikokat! A minta hozzáadását követően 25 cm$^3$ össztérfogatra hígítjuk őket desztillált vízzel. Érdemes egymáshoz képest $1 - 2$ perc eltolással indítani a két hőmérsékleten vizsgált bomlási reakciót, hogy ne kelljen egyszerre mintát venni a két lombikból.
+\end{enumerate}
+
+\textbf{Fényabszorpció mérése és koncentráció számolása}. Mind a kezdeti, mind a $t$ időpillanatban lévő koncentráció meghatározása spektrofotometriásan történik. A spektrofotométer kezelési leírása a készülék mellett megtalálható. A 2-es abszorbanciaérték felett a mintát higítani, és a számítások során a kapott eredményt korrigálni kell. (Pl. ha higítás után a számolt koncentráció 0.1 M, és a higítás $2\times$ volt, akkor az eredeti koncentráció 0.2 M.) A minta \emph{Aszpirin}-koncentrációját úgy számítjuk ki, hogy a kapott abszorbaciaértéket megszorozzuk $b = 8.3~(mol/dm^3) / AU$ arányossági tényezővel. Ez annak a hipotetikus \emph{Aszpirin}-oldatnak a koncentrációja, melynek abszorbanciája egységnyi, ha $d = 1~cm$, ahol $d$ a rétegvastagság.
+
+
+\subsection{Beadandó eredmények}
+
+\begin{enumerate}
+\item A mérési és számított adatok táblázatosan (\ref{table:tablazatos}. táblázat).
+\item A sebességi állandók számítása (\ref{table:seb}. táblázat)\footnote{Standard deviáció, $s=\sqrt{\frac{\Sigma(x_i-\overline{x})^2}{n-1}}$}.
+\item A sebességi állandó hőmérsékletfüggéséből határozzuk meg a sebességi állandó értékét 20 $\celsius$-on (293 K) grafikusan, ábrázolva a $\lg k$-t az $1/T$ függvényében.
+\item Az Arrhenius egyenlet integrált alakjába történő behelyettesítéssel számítsuk ki az $E$ aktiválási energiát és a preexponciális tényezőt:
+	\begin{enumerate}
+		\item E [kJ mol$^{-1}$]
+		\item $\lg$ A [$s^{-1}$]
+		\item A [s$^{-1}$]
+	\end{enumerate}
+\end{enumerate}
+
+\begin{table}[!h]
+\caption{A mérési és számított adatok táblázatosan.}
+\centering
+T = ... K, $z$ = ... mg/100 cm$^3$
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Reakcióidő, s&Hígítás&A&x, mg / 100 cm$^3$ &(z-x), mg / 100 cm$^3$ & $k$, s$^{-1}$ \\
+\hline
+... & ... & ... & ... & ... & ... \\
+\end{tabular}
+\label{table:tablazatos}
+\end{table}
+
+\begin{table}[!h]
+\caption{A sebességi állandó hőmérsékletfüggése.}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Hőmérséklet, K& 1/T & $\overline{k}$ (átlag), s$^{-1}$ & $\lg k$ & standard deviáció \\
+\hline
+... & ... & ... & ... & ... \\
+\end{tabular}
+\label{table:seb}
+\end{table}

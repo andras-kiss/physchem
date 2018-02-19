@@ -1,0 +1,28 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{ae,aecompl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{pgfplots}
+\usepackage{anysize}
+\marginsize{0cm}{0cm}{0cm}{0cm}
+\usepackage{setspace}
+\setstretch{1.2}
+\frenchspacing
+\pgfplotsset{compat=newest}
+\pagestyle{empty}
+\usepgfplotslibrary{ternary}
+\usepackage{lscape}
+
+\begin{document}
+\begin{landscape}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{ternaryaxis}[minor tick num=9,grid=both,axis on top,xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,width=15cm,height=15cm,]
+\end{ternaryaxis}
+\end{tikzpicture}
+\label{fig:ccw}
+\end{figure}
+\end{landscape}
+\end{document}

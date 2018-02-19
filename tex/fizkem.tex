@@ -1,0 +1,76 @@
+\documentclass[a4paper, 12pt, twoside]{article}
+\usepackage[hungarian]{babel}
+\usepackage{ae,aecompl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{pgfplots}
+\usepackage{anysize}
+% left right up down
+\marginsize{3.2cm}{2.8cm}{2cm}{2cm}
+\usepackage{setspace}
+\setstretch{1.2}
+\frenchspacing
+\pgfplotsset{compat=newest}
+%\pagestyle{empty}
+\usepgfplotslibrary{ternary}
+\usepackage{chemfig}
+\usepackage{gensymb}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\hyphenation{hő-mér-sék-let-füg-gé-sét}
+
+\renewcommand\footrule{\begin{minipage}{1\textwidth}
+%\hrule width \hsize height 2pt \kern 1mm \hrule width \hsize   
+\hrule width \hsize height 1pt   
+\end{minipage}\par}%
+
+\renewcommand\headrule{
+\begin{minipage}{1\textwidth}
+%\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt 
+\hrule width \hsize height 1pt 
+\end{minipage}}%
+
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[LE,RO]{\leftmark}
+
+%\setlength{\footskip}{40pt}
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\usepackage{lastpage}
+%\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+%\lhead{\thesection}
+%\cfoot{\itshape\textcolor{gray}{Fizikai Kémia gyakorlatok gyógyszerészeknek}}
+
+\setcounter{tocdepth}{1}
+%\thispagestyle{empty}
+\title{Physical chemistry laboratory practice for pharmacy students}
+\author{\emph{written by:} \\ Barna Kovács \\ Sándor Kunsági-Máté \\ Géza Nagy \\ \\ \emph{translated by:} \\ András Kiss}
+\date{}
+ 
+\begin{document}
+%\clearpage\maketitle
+%\thispagestyle{empty}
+%\newpage 
+%\tableofcontents
+%\newpage
+
+%\input{gyogyboml_english.tex}
+%\newpage
+%\clearpage
+%\input{ion_english.tex}
+%\newpage
+%\input{pkvez_english.tex}
+%\newpage
+\input{pkvez.tex}
+
+
+
+\end{document}

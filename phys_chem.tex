@@ -1,0 +1,95 @@
+\documentclass[a4paper, 12pt, twoside]{article}
+%\usepackage[hungarian]{babel}
+\usepackage{ae,aecompl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{anysize}
+% left right up down
+\marginsize{3.2cm}{2.8cm}{2cm}{2cm}
+\usepackage{setspace}
+\setstretch{1.2}
+\frenchspacing
+%\pgfplotsset{compat=newest}
+%\pagestyle{empty}
+%\usepgfplotslibrary{ternary}
+\usepackage{chemfig}
+\usepackage{gensymb}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{indentfirst}
+\usepackage{sidecap}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\hyphenation{hő-mér-sék-let-füg-gé-sét}
+\usepackage{pgfplots}
+\usepackage{pst-plot}
+\usepackage{tikz}
+\usepgfplotslibrary{colormaps}
+\usetikzlibrary{pgfplots.colormaps}
+%\usepgfplotslibrary{external}
+%\tikzexternalize
+
+
+
+\renewcommand\footrule{\begin{minipage}{1\textwidth}
+%\hrule width \hsize height 2pt \kern 1mm \hrule width \hsize   
+\hrule width \hsize height 1pt   
+\end{minipage}\par}%
+
+\renewcommand\headrule{
+\begin{minipage}{1\textwidth}
+%\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt 
+\hrule width \hsize height 1pt 
+\end{minipage}}%
+
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[LE,RO]{\leftmark}
+
+%\setlength{\footskip}{40pt}
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\usepackage{lastpage}
+%\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+%\lhead{\thesection}
+%\cfoot{\itshape\textcolor{gray}{Fizikai Kémia gyakorlatok gyógyszerészeknek}}
+
+\setcounter{tocdepth}{1}
+%\thispagestyle{empty}
+\title{Physical chemistry laboratory practice}
+
+\author{\emph{written by:} \\ Barna Kovács \\ Sándor Kunsági-Máté \\ Géza Nagy \\ \\ \emph{translated by:} \\ András Kiss \\ \\ \\ \\ \\ \\ \\ \\
+\includegraphics[width=0.2\textwidth]{pte_logo.eps} \\
+Department of General and Physical Chemistry \\ University of Pécs}
+
+\begin{document}
+\clearpage\maketitle
+\thispagestyle{empty}
+\newpage 
+\tableofcontents
+\newpage
+
+\input{gyogyboml_english.tex}
+\newpage
+\clearpage
+\input{ion_english.tex}
+\newpage
+\input{pkvez_english.tex}
+\newpage
+\input{vitc_english.tex}
+\newpage
+\input{inversion_english.tex}
+\newpage
+\input{langmuir.tex}
+\newpage
+\input{ionic_conductivities.tex}
+%\newpage
+%\input{ternary.tex}
+
+
+\end{document}

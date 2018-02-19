@@ -1,0 +1,109 @@
+\fancyhead[LE,RO]{Catalytic oxidation -- ,,AO''}
+\fancyhead[LO,RE]{\thesection}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{\emph{Physical chemistry lab. practice for pharmacy students}}
+
+%\setcounter{section}{7}
+\section{Electrochemical study of the catalytic oxidation of vitamin C}
+\subsection{Introduction}
+In this practice we will use an electrochemical method, voltammetry to study the catalytic oxidation of vitamin C. It is an essential vitamin for humans. Its spontanaeous oxidation is well known:
+
+\begin{equation}
+\label{eq:divider}
+        C_6 H_8 O_6
+	+
+	1/2 O_2
+        =
+	C_6 H_6 O_6
+	+ H_2O
+\end{equation}
+
+The reaction is catalyzed by multivalent metal ions. If there is excess oxygen, the reaction becomes pseudo first-order. In this case, the measured rate constant is an \emph{apparent rate constant}. Let's look at a simple reaction:
+
+\begin{equation}
+\label{eq:divider}
+        A
+        +
+        B
+        =
+        P
+\end{equation}
+
+In this reaction, product $P$ is formed from reactants $A$ and $B$. The rate equation is
+
+\begin{equation}
+\label{eq:rate_differential}
+	v
+	=
+	\frac{d[A]}{dt}
+	=
+	-\frac{d[P]}{dt}
+	=
+	k[A]
+\end{equation}
+
+To determine $k$, we can either measure the change in $[A]$, $[B]$ or $[P]$ as a function of time $t$. Consider the change in $[A]$. Assume, that the initial ($t = 0$) concentration is $[A_0]$. Then we can solve the differential equation \ref{eq:rate_differential} by integrating:
+
+\begin{equation}
+\label{eq:rate}
+        \int_{[A_0]}^{[A]}
+        \frac{d[A]}{dt}
+        =
+        -k \int_0^t
+	dt
+\end{equation}
+ 
+The solution is:
+
+\begin{equation}
+\label{eq:rate}
+        ln
+	\frac{[A]}{[A_0]}
+        =
+        -kt
+\end{equation}
+
+and
+
+\begin{equation}
+\label{eq:rateln}
+        [A]
+	=
+	[A_0]
+	e^{-kt}
+\end{equation}
+
+In a first-order reaction, concentration changes exponentially in time, and the logarithm of concentration changes linearly as a function of time. By using eq. \ref{eq:rateln}, we can decide if a reaction is first-order or not. This can be done by plotting ln$[A]$ as a function of time, and see if the points fit on a line or not. If they do, it's a first-order reaction, and the slope is the rate constant $k$.
+
+\subsection{Practice procedures}
+We will use voltammetry to determine the concentration of ascorbic acid at any time $t$. First, make a calibration plot:
+
+\begin{enumerate}
+\item Start by preparing 50 ml 10 mM stock solution, dissolved in deionized water.
+
+\item Then take a clean 20 - 50 ml beaker, and measure 10 ml of 0.1 M NaCl solution into it. Place the beaker on a magnetic stirrer, and put a magnet into the beaker. Put the electrodes into the solution. We will use carbon paste working electrode, Ag/AgCl reference electrode, and a platinum auxiliary electrode.
+
+\item Record a cyclic voltammogramm from 0 to 0.8 V, with a scanrate of 100 mV/s. Adjust the current range if necessary.
+
+\item Then start increasing the ascorbic acid concentration (now it's zero), by adding small volumes (30 $\upmu$l) from the stock solution. Record a CV after every addition. Repeat it 10 times, so you have 11 measurements. Now you have data for the calibration curve. Calculate the concentrations at home. (For example if you add 100 $\upmu$l, $c = n/V = (0.1~mol\cdot L^{-1} \times 0.0001~L) / 0.0101~L = 9.9\cdot10^{-3}~mol\cdot L^{-1}$.) Prepare a table to record the data in. (First column: added total volume of ascorbic acid, second column: anodic peak current, $i_{pa}$.)
+\end{enumerate}
+
+Then, we will follow the catalytic oxidation of ascorbic acid by measuring its concentration with voltammetry:
+
+\begin{enumerate}
+\item To study the catalytic oxidation of ascorbic acid, we will use a double walled, thermostatted reaction vessel. Start the thermostat. Put 80 ml of 0.1 M NaCl solution into it. Add 100 $\upmu$l of 0.1 M CuCl$_2$. This will serve as a catalyst.
+\item Start the oxygen pump. This serves two purposes. First, it supplies the reaction with plenty of oxygen, so it becomes pseudo first-order. Additionally, it stirs the solution.
+\item Take a small sample out, and record a CV the same way you did in the calibration measurements. The volume doesn't matter, but it should be enough for the electrodes to have their acitve area submersed. Put the sample back into the reaction vessel after the measurement is complete.
+\item Add 1 ml of stock solution to the reaction vessel. Start a stopwatch at the moment of addition. This is when the reaction starts.
+\item At $t = 5, 10, 15, 20, 25, 30, 35, 40$ minutes, take samples and record a CV in them. Always put the sample back into the reaction vessel.
+\end{enumerate}
+
+\subsection{Results to submit}
+
+\begin{enumerate}
+\item Cyclic voltammogramms of the calibration measurements.
+\item Cyclic voltammogramms of the measurements for the catalytic breakdown.
+\item Calibration plot ($c - i_{pa}$). $i_{pa}$ is the anodic peak on the CV. Its magnitude is proportional to the concentration of ascorbic acid. This relationship is what we will use in the determination of the concentration. From the calibration plot, the concentration of ascorbic acid in an unknown solution can be determined from the anodic peak.
+\item $t - c$ table for the catalytic breakdown. First column: time, second column: concentration of ascorbic acid calculated from the anodic peak currents, using on the calibration plot.
+\item $lnc - t$ plot. This is the plot on which you should fit a linear equation. Its slope will be the \textbf{rate constant}. This is the end result of the practice. Write a conlcusion: ,,Rate constant of the catalytic breakdown of ascorbic acid, based on my measurements in these conditions (list conditions here) is $k = ... s^{-1}$.
+\end{enumerate}

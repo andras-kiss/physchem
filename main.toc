@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Investigating the temperature dependence of drug decomposition}{3}
+\contentsline {subsection}{\numberline {1.1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.2}Practice procedures}{3}
+\contentsline {subsection}{\numberline {1.3}Results to submit}{5}
+\contentsline {section}{\numberline {2}Determination of selectivity coefficient of ion-selective electrode}{7}
+\contentsline {subsection}{\numberline {2.1}Introduction}{7}
+\contentsline {subsection}{\numberline {2.2}Practice procedures}{9}
+\contentsline {subsubsection}{\numberline {2.2.1}Determining the selectivity coefficient using the separate solution method}{9}
+\contentsline {subsubsection}{\numberline {2.2.2}Determining the selectivity coefficient using the mixed solution method}{10}
+\contentsline {subsection}{\numberline {2.3}Evaluation}{10}
+\contentsline {subsection}{\numberline {2.4}Results to submit}{10}
+\contentsline {section}{\numberline {3}Determination of dissociation constants of weak acids with conductometry}{11}
+\contentsline {subsection}{\numberline {3.1}Introduction}{11}
+\contentsline {subsection}{\numberline {3.2}Practice procedures}{13}
+\contentsline {subsection}{\numberline {3.3}Evaluation}{14}
+\contentsline {section}{\numberline {4}Electrochemical study of the catalytic oxidation of vitamin C}{15}
+\contentsline {subsection}{\numberline {4.1}Introduction}{15}
+\contentsline {subsection}{\numberline {4.2}Practice procedures}{16}
+\contentsline {subsection}{\numberline {4.3}Results to submit}{17}
