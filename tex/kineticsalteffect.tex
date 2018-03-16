@@ -1,0 +1,275 @@
+\fancyhead[LE,RO]{Investigating the kinetic salt effect}
+\fancyhead[LO,RE]{\thesection}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{\emph{Physical chemistry laboratory practice}}
+
+\section{Investigating the kinetic salt effect}
+\subsection{Introduction}
+
+Reactions in solution phase are significantly different from gas phase reactions. The identity of the solvent has a very marked influence on the rate of reaction and in most cases, the solvent also interacts with the reactants in some direct manner. This is also the case when ionic reactions proceed in aqueous solution. Water promotes the dissociation of the dissolved salts as energy is gained in the process of hydration (or solvation in non-aqueous solvents). Although activities were only defined for thermodynamic purposes, it is actually quite customary to interpret such kinetic salt effects through the activity coefficients of dissolved ions.
+
+In transition state theory (or absolute rate theory), the rate constant of a bimolecular process between reactants A and B is given by the following form of the Eyring equation:
+
+\begin{equation}
+k = \frac{k_{\text B} T}{h} K^* \frac{\gamma_{\text A} \gamma_{\text B}}{\gamma_{\text{M*}}}
+\end{equation}
+
+In this equation, $k_{\text B}$ is the Boltzmann constant, $T$ is the absolute temperature, $h$ is the Planck constant, $K^*$ is the concentration-based equilibrium constant of the formation of the activated complex and the $\gamma$ values are the activity coefficients.
+
+Aqueous reactions are almost never ideal processes primarily because of the interaction between the solute and water molecules. The difference from the ideal case is often given by a $\Delta G_i^{\text n}$ free energy change between the real and ideal cases. This $\Delta G_i^n$ is related to the $\gamma_i$ activity coefficient of ionic species $i$ through the following equation:
+
+\begin{equation}
+\Delta G_i^{\text n} = k_{\text B} T \text {ln} \gamma_i
+\end{equation}
+
+The Debye-H\"uckel theory gives the following estimation for the activity coefficients:
+
+\begin{equation}
+k_{\text B} T \text {ln} \gamma_i = \frac{z_i^2 e^2}{2 \epsilon a} - \frac{z_i^2 e^2}{2 \epsilon (1 + \beta a)}
+\end{equation}
+
+In this equation, $z_i$ values are the ionic charges,  $\epsilon$ is the dielectric constant of the medium, $e$ is the charge of an electron, $\beta$ is the ionic strength, and $a$ is the smallest distance between two ions. 
+
+At constant pressure and temperature, the difference between the real and ideal cases is expresses by the ratio of the real and ideal  equilibrium constants:
+
+\begin{equation}
+\Delta G_i^{\text n} = R T \text {ln} \frac{K_\text{real}}{K_\text{ideal}}
+\end{equation}
+
+Combining the Eyring equation with Debye-H\"uckel theory gives the following equation:
+
+\begin{equation}
+\text {ln} k = \text {ln} k_0 - \frac{z_1 z_2 e^2}{k_{\text B} T \epsilon a} + \frac{z_1 z_2 e^2}{k_{\text B} T \epsilon (1 + \beta a)}
+\end{equation}
+
+In this equation, $k_0$ is the value of the rate constant in the ideal (reference) state. In ion reactions, the reference state is $\epsilon \rightarrow \infty$ and $\beta \rightarrow 0$. Under these conditions, the following relations hold:
+
+\begin{equation}
+ \frac{z_1 z_2 e^2}{k_{\text B} T \epsilon a} \rightarrow 0 \quad \text{if} \quad \epsilon \rightarrow \infty \quad \quad \text{and} \quad \quad  \frac{z_1 z_2 e^2 \beta}{k_{\text B} T \epsilon (1 + \beta a)} \rightarrow 0 \quad \text{if} \quad \beta \rightarrow 0
+\end{equation}
+
+So the $k_0 = k_{\text B} T K^* / h$ equation refers to this hypothetical state.
+
+In dilute aqueous solutions, the previous formulas can be transformed into a somewhat simplified version:
+
+\begin{equation}
+\label{bronsted}
+\text {log}_{10} \left ( \frac{k}{k_0} \right ) = 1.02 z_1 z_2 \sqrt{\beta}
+\end{equation}
+
+\begin{equation}
+\beta = \frac{1}{2} \sum c_i z_i^2
+\end{equation}
+
+Equation \eqref{bronsted} is often referred to as the B\o nsted equation in the literature of chemical kinetics.
+
+During the calculation of the ionic stregnth, the contributions of all ionic species must be summed including reactants and non-reactive ions as well. According to equation \eqref{bronsted}, a plot of log$_{10}k$ as a function of $\sqrt{\beta}$ will give a straight line. This has been experimentally confirmed in many ionic reactions at relatively small ionic strengths. The applicability of this equation is limted by the validity range of the extended Debye-H\"uckel theory, which means that deviations from linearity are expected at higher ionic stengths.
+
+In this practice, a relatively simple reaction between iodide amd peroxodisulfate ions will be studied. The stoichimetry of the process is given as:
+
+ \begin{equation}
+2\text{I}^{-} + \text{S}_2 \text{O}_8^{2-} \longrightarrow \text{I}_{2} + 2 \text{SO}_{4}^{2-}
+\end{equation}
+
+The appearnce if iodine in the system can be conveniently monitored in time by titration with sodium thiosulfate (iodometry).
+
+A modification of this monitoring method is when thiosulfate ion is added before initiating the reaction and a simple iodine clock reaction is created in this way. The time when iodine begins to appear visibly marks the moment when thiosulfate ion is completely used up. Therefore, if the initial thiosulafte ion conentration is kept constant and low compared to other reactant concentrations in a series of experiments, the initial rate of the process can be estimated easily.
+
+In the iodine clock reaction, the reduction of iodine with thiosulfate ions occurs at the same time as the studied reaction between iodide and peroxodisulfate ions progresses:
+
+\begin{equation}
+\text{I}_{2} + 2 \text{S}_2 \text{O}_3^{2-}  \longrightarrow 2 \text{I}^{-}  + \text{S}_2 \text{O}_3^{2-}
+\end{equation}
+
+This process is much faster than the studied reaction between iodide and peroxodisulfate ions, so iodine cannot accumulate until thiosulfate ion is completely used up. When iodine accumulation begins, the starch added to the solution forms an intense blue inclusion complex with the iodine, which can be easily detected visually. Thiosulafte ion is used in large deficiency compared to the other two reagents, so the conversion of the studied reaction is sufficiently low at the moment of iodine appearance to calculate the initial rate directly from the measured time.
+
+From the chemical literaure, the reaction between iodide and peroxodisulfate ions is known to be first order with respect to both reagents. Iodide ion concentration does not change in the initial (clock) stage of the reaction because of the addition of thiosulfate ions, so the rate law of the process can be formulated as follows:
+
+\begin{equation}
+- \frac{d[\text{S}_2 \text{O}_8^{2-}]}{dt} = k_{\Psi}[\text{S}_2 \text{O}_8^{2-}]
+\end{equation}
+
+In this equation,  $k_{\Psi}$ is a pseudo-first order rate constant, which is given as the product of the second order rate constant $k$ and the iodide ion concentration:
+
+\begin{equation}
+k_{\Psi} = k[\text I^{-}]
+\end{equation}
+
+As discussed before, the initial rate of the reactions can be estmaited based on differences:
+
+\begin{equation}
+- \frac{d[\text{S}_2 \text{O}_8^{2-}]}{dt} = \frac{\Delta [\text{S}_2 \text{O}_3^{2-}]}{\Delta t}
+\end{equation}
+
+In this equation, $\Delta [\text{S}_2 \text{O}_3^{2-}]$ is the concentration of initially added thiosulfate ion and $\Delta t$ is the clock time measured. In principle, the value of $k$ could be determined based on a single experimens as the rate  law is already known. However, it is typically advisable to carry out several measurements with different initial concentrations so that the reproducibility of the results is also assessed.
+
+
+
+\subsection{Practice procedures}
+
+You will need the following equipment:
+
+\begin{enumerate}
+
+\item  1000 cm$^3$ volumetric flask (1)
+
+\item 500 cm$^3$ volumetric flask (2)
+
+\item 250 cm$^3$ volumetric flask (2)
+
+\item 250 cm$^3$ Erlenmeyer flask (10)
+
+\item 50 cm$^3$ burette (5)
+
+\item 10 cm$^3$ graduated pipette (2)
+
+\item 200 cm$^3$ beaker (1)
+
+\item stand with burette clamp (3)
+
+\item heater (1) 
+
+\item stopwatch (3)
+
+\end{enumerate}
+
+
+You will need the following chemicals:
+
+\begin{enumerate}
+
+\item Potassium iodide
+
+\item Potassium peroxodisulfate
+
+\item Potassium nitrate
+
+\item Sodium thiosulfate
+
+\item Ethylene diamine tetraacetic acid (EDTA)
+
+\item concentrated hydrochloric acid
+
+\item starch
+
+\item iodine
+
+\end{enumerate}
+
+
+Prepare the following stock solutions:
+
+\begin{enumerate}
+
+\item  0.1 M KI solution (500 cm$^3$)
+
+\item  0.001 M Na$_2$S$_2$O$_3$ solution (250 cm$^3$)
+
+\item 0.01 M K$_2$S$_2$O$_8$ solution (500 cm$^3$)
+
+\item 10$^{-5}$ M EDTA in 0.001 M HCl (1000 cm$^3$) as the general solvent
+
+\item 1 M KNO$_3$ solution in the general solvent  (250 cm$^3$)
+
+\item Starch solution: suspend 1 g starch in 20 cm$^3$ water thoroughly, then add another 80 cm$^3$ water. Heat this solution rapidy to boiling then cool it back to room temperature. 
+
+\end{enumerate}
+
+Take 10 Erlenmeyer flasks and prepare the sample solutions listed in the table below.
+
+Be careful. The last component that you add must always be the solution of potassium peroxodisulfate. The starting time of the reaction is the moment when this last portion is added. Shake the flasks occasionally to ensure good mixing. Start the first three samples (where no extra electrolyte is added) first, wait for the end of these reactions, record your results and then start the remaining seven samples.
+
+
+\begin{table}[H]
+\caption{Composition of individual experiments}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Sample& 0.01 M & 0.001 M & 1 M  & solvent & starch & 0.01 M  \\
+
+number & KI & Na$_2$S$_2$O$_3$ & KNO$_3$ & &  & K$_2$S$_2$O$_8$ \\
+
+   & cm$^3$ & cm$^3$ & cm$^3$ & cm$^3$ & cm$^3$ & cm$^3$ \\
+
+\hline
+1 & 20.0 & 10.0 & 0 & 59.0 & 1.0 & 10 \\
+
+\hline
+2 & 20.0 & 10.0 & 0 & 44.0 & 1.0 & 25 \\
+
+\hline
+3 & 20.0 & 10.0 & 0 & 34.0 & 1.0 & 35 \\
+
+\hline
+4 & 20.0 & 10.0 & 1.0 & 43.0 & 1.0 & 25 \\
+
+\hline
+5 & 20.0 & 10.0 & 3.0 & 40.0 & 1.0 & 25 \\
+
+\hline
+6 & 20.0 & 10.0 & 5.0 & 38.0 & 1.0 & 25 \\
+
+\hline
+7 & 20.0 & 10.0 & 10.0 & 33.0 & 1.0 & 25 \\
+
+\hline
+8 & 20.0 & 10.0 & 20.0 & 23.0 & 1.0 & 25 \\
+
+\hline
+9 & 20.0 & 10.0 & 25.0 & 18.0 & 1.0 & 25 \\
+
+\hline
+10 & 20.0 & 10.0 & 35.0 & 8.0 & 1.0 & 25 \\
+
+\hline
+
+\end{tabular}
+\end{table}
+
+\subsection{Evaluation}
+
+Give the experimentally measured reaction times and the calculated initial rates in the from of a table:
+
+\begin{table}[H]
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Sample & Clock time & [S$_2$O$_3^{2-}$] & [S$_2$O$_8^{2-}$] & [I$^{-}$] & $r_0$ \\
+
+Number   & s & mol dm$^{-3}$ & mol dm$^{-3}$ & mol dm$^{-3}$ & mol dm$^{-3}$ s$^{-1}$  \\
+
+\hline
+1 &   &   &   &   &    \\
+
+\hline
+2 &   &   &  &   &    \\
+
+\hline
+... &   &   &  &   &    \\
+
+\hline
+\end{tabular}
+\end{table}
+
+
+Give the calculated rate constants in the from of a table:
+
+\begin{table}[H]
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Sample & $k_{\Psi}$ & $k$ & log$_{10}$ ($k$ /  mol$^{-1}$ & ionic strength, & $\sqrt{\beta}$ \\
+
+Number   & s$^{-1}$ & mol$^{-1}$ dm$^3$ s$^{-1}$ &  dm$^3$ s$^{-1}$)  &  $\beta$, mol dm$^{-3}$ & mol$^{1/2}$ dm$^{-3/2}$  \\
+
+\hline
+1 &   &   &   &   &    \\
+
+\hline
+2 &   &   &  &   &    \\
+
+\hline
+... &   &   &  &   &    \\
+
+\hline
+\end{tabular}
+\end{table}
+
+Plot log$_{10} k$ as a function of $\sqrt{\beta}$.
