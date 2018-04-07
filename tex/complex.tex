@@ -1,0 +1,200 @@
+\fancyhead[LE,RO]{Composition of a complex by spectrophotometry}
+\fancyhead[LO,RE]{\thesection}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{\emph{Physical chemistry laboratory practice}}
+
+\section{Determination of the composition of a complex by spectrophotometry}
+\subsection{Introduction}
+
+The formation of an ML$_n$ complex can be described by the following equilibrium reaction:
+
+\begin{equation}
+\text{M} + n\text{L} \rightleftharpoons \text{ML}_n
+\end{equation}
+
+As a consequence of the law off mass action, the equilibrium constant of the reaction is defined as follows:
+
+\begin{equation}
+K = \frac{[ \text{ML}_n ]}{[ \text{M} ][ \text{L}]^n }
+\end{equation}
+
+In this formula, $K$ is the stability product of the complex, [M] is the equilibrium concentration of the free metal ion, [L] is the equilibrium constant of the free ligand, [ML] is the equilibrium concentration of the complex, and $n$ is the number of ligands coordinated to the metal ion.
+
+A common approach to determine the composition of a complex is called Job's method: using solutions of the ligand and the metal that have the same concentrations, a series of samples is prepared in which the sum of these two analytical concentrations is constant, but the ratio varies. (For example, the final volume is always 10 cm$^3$, and a sample is prepared by mixing $x$ cm$^3$ of the ligand solution with $10-x$ cm$^3$ of the metal solution.) It can be proved easily that the sample with the highest concentration of the complex will be the one where the ratio of the ligand and metal ion analytical concentrations is the same as in the complex. 
+
+First, it is noted that the sum of the analytical concentrations of the ligand and the metal is a constant in all the samples:
+
+\begin{equation}
+c = c_{\text L} + c_{\text M}
+\end{equation}
+
+Differentiating this equation with respect to $c_{\text L}$ gives:
+
+\begin{equation}
+0 = 1 + \frac{dc_{\text M}}{dc_{\text L}}
+\end{equation}
+
+Simply rearranging this equation gives the following formula for the derivative of  $c_{\text M}$ with respect to  $c_{\text L}$:
+
+\begin{equation}
+\frac{dc_{\text M}}{dc_{\text L}} = -1 
+\end{equation}
+
+Mass conservation for the metal ion gives:
+
+\begin{equation}
+[\text M] = c_{\text M} - [\text {ML}_n] 
+\end{equation}
+
+The analogous mass conservation equation for the ligand takes the following form:
+
+\begin{equation}
+[\text L] = c_{\text L} - n[\text {ML}_n] 
+\end{equation}
+
+Using these mass conservation equation, the equilibrium constant can be written as:
+
+\begin{equation}
+K = \frac{[ \text{ML}_n ]}{(c_{\text M} - [\text {ML}_n] )(c_{\text L} - n[\text {ML}_n])^n }
+\end{equation}
+
+
+Differentiating this equation with respect to $c_{\text L}$ gives:
+
+\begin{equation}
+\begin{array}{cccc}
+0 = K \frac{d[ \text{ML}_n ]}{dc_{\text L}} + \frac{-K}{(c_{\text M} - [\text {ML}_n] )} \left ( -1 - \frac{d[ \text{ML}_n ]}{dc_{\text L}} \right )
+\\{}\\
+ + \frac{-nK}{(c_{\text L} - n[\text {ML}_n])} \left ( 1 - n \frac{d[ \text{ML}_n ]}{dc_{\text L}} \right )
+\end{array}
+\end{equation}
+
+At the maximum concentration of the ML$_n$ complex, the derivative $d[ \text{ML}_n ] / dc_{\text L}$ is zero. In the previous equation, this leaves a very simple relationship:
+
+\begin{equation}
+0 = \frac{K}{(c_{\text M} - [\text {ML}_n] )}  + \frac{-nK}{(c_{\text L} - n[\text {ML}_n])} 
+\end{equation}
+
+This equation can be re-arranged further:
+
+\begin{equation}
+n(c_{\text M} - [\text {ML}_n] ) = (c_{\text L} - n[\text {ML}_n]) 
+\end{equation}
+
+Finally, it is noted that the term $n[\text {ML}_n]$ occurs on both sides, the ratio of the two analytical concentrations is obtained:
+
+\begin{equation}
+\frac{c_{\text L}}{c_{\text M}}= n 
+\end{equation}
+
+This line of thought proves that maximum concentration of {ML}$_n$ will be reached in a solution where the ligand-to-metal concentration ratio is exactly $n$, i.e. the stoichiometric value.
+
+If the complex is colored, the ratio at which maximum complex formation occurs can be determined easily and the composition of the complex can be deduced. According to Beer's law, the absorbance ($A$) of a solution at a given wavelength $\lambda$ is given as:
+
+\begin{equation}
+A = \epsilon_{\lambda} c l 
+\end{equation}
+
+If all three components (M, L and ML$_n$) have absorptions, three terms need to be given in this equation:
+
+\begin{equation}
+A = (\epsilon_{\text M} [\text M] +\epsilon_{\text L} [\text L] + \epsilon_{\text {ML}_n} [\text {ML}_n])l 
+\end{equation}
+
+The molar absorbances of all species appear in this equation. In the absence of any complex formation, the expectation for the absorbance would be:
+
+\begin{equation}
+A' = \epsilon_{\text M} (c - c_{\text L}) l +\epsilon_{\text L} c_{\text L} l 
+\end{equation}
+ 
+The difference between $A$ and $A'$ can be expressed taking the mass conservation equations into account:
+
+\begin{equation}
+\begin{array}{cccc}
+A - A' = \epsilon_{\text M} (c - c_{\text L} - [\text {ML}_n]) l + \epsilon_{\text L} (c_{\text L} - n[\text {ML}_n]) l + \epsilon_{\text {ML}_n} [\text {ML}_n] l
+\\{}\\
+ - \epsilon_{\text M} (c - c_{\text L}) l - \epsilon_{\text L} c_{\text L} l =
+\\{}\\
+(\epsilon_{\text {ML}_n} - \epsilon_{\text M} - n \epsilon_{\text L}) [\text {ML}_n] 
+\end{array}
+\end{equation}
+
+Because of this direct proportionality, it is clear that $A-A'$ will have an extremum exactly where $[\text {ML}_n]$ has. Therefore, the absorbance signal can be used for the determination of the composition of the complex.
+
+
+
+\subsection{Practice procedures}
+
+Ask your instructor which metal ion ligand pair you should do experiments on. Prepare 100 cm$^3$  20-fold dilutions of both of the stock solutions, then prepare the samples given in the following table:
+
+
+\begin{table}[H]
+\centering
+\caption{Composition of individual experiments}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Sample& M & L & Sample  & M & water  \\
+
+number & cm$^3$ & cm$^3$ & number & cm$^3$ & cm$^3$ \\
+
+\hline
+1 & 1.0 & 9.0 & 1' & 1.0 & 9.0 \\
+
+\hline
+2 & 2.0 & 8.0 & 2' & 2.0 & 8.0 \\
+
+\hline
+3 & 3.0 & 7.0 & 3' & 3.0 & 7.0 \\
+
+\hline
+4 & 4.0 & 6.0 & 4' & 4.0 & 6.0 \\
+
+\hline
+5 & 5.0 & 5.0 & 5' & 5.0 & 5.0 \\
+
+\hline
+6 & 6.0 & 4.0 & 6' & 6.0 & 4.0 \\
+
+\hline
+7 & 7.0 & 3.0 & 7' & 7.0 & 3.0 \\
+
+\hline
+8 & 8.0 & 2.0 & 8' & 8.0 & 2.0 \\
+
+\hline
+9 & 9.0 & 1.0 & 9' & 9.0 & 1.0 \\
+
+\hline
+
+\end{tabular}
+\end{table}
+
+Put the samples in the first series on white paper and select the one that has the most intense color. Fill a cuvette with 1.000 cm path length with this solution and record its spectrum in the visible range (370-650 nm) using water as a reference. Select the wavelength at which the absorbance is the highest (this is called the peak in the spectrum). Measure the absorbances of all other solutions at this wavelength. Measure the absorbances of all samples in the second series at the same wavelength. Finally, record the absorption spectrum of the metal ion solution using the original (undiluted) stock solution of the metal
+
+\subsection{Evaluation}
+
+Draw the two absoprtion spectra (i.e. that of the complex and that of the metal ion). At the selected wavelength, give the measured absorbance values in a table:
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Sample & L & $A$ & $A'$ & $A-A'$ \\
+
+Number   & (cm$^3$) &  &  &  \\
+
+\hline
+1 &   &   &   &    \\
+
+\hline
+2 &   &   &  &    \\
+
+\hline
+... &   &   &  &   \\
+
+\hline
+\end{tabular}
+\end{table}
+
+Plot the $A-A'$ values as a function of the ligands solution volume used (in cm$^3$), determine where the maximum occurs and deduce the composition of the complex.
