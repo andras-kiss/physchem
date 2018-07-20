@@ -1,0 +1,48 @@
+\contentsline {section}{\numberline {1}Foreword}{3}{section.1}
+\contentsline {section}{\numberline {2}Investigating the temperature dependence of drug decomposition}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Introduction}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Practice procedures}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Results to submit}{6}{subsection.2.3}
+\contentsline {section}{\numberline {3}Determination of selectivity coefficient of ion-selective electrode}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Introduction}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Practice procedures}{10}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Determining the selectivity coefficient using the separate solution method}{10}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Determining the selectivity coefficient using the mixed solution method}{11}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Evaluation}{11}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Results to submit}{11}{subsection.3.4}
+\contentsline {section}{\numberline {4}Determination of dissociation constants of weak acids with conductometry}{12}{section.4}
+\contentsline {subsection}{\numberline {4.1}Introduction}{12}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Practice procedures}{14}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Evaluation}{15}{subsection.4.3}
+\contentsline {section}{\numberline {5}Electrochemical study of the catalytic oxidation of vitamin C}{16}{section.5}
+\contentsline {subsection}{\numberline {5.1}Introduction}{16}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Practice procedures}{17}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Results to submit}{18}{subsection.5.3}
+\contentsline {section}{\numberline {6}Investigation of sucrose inversion with polarimetry}{19}{section.6}
+\contentsline {subsection}{\numberline {6.1}Introduction}{19}{subsection.6.1}
+\contentsline {paragraph}{Using the rate equations.}{19}{section*.2}
+\contentsline {paragraph}{Guggenheim's method.}{20}{section*.3}
+\contentsline {paragraph}{Method of initial rates.}{21}{section*.4}
+\contentsline {subsection}{\numberline {6.2}Investigating the inversion reaction of sucrose}{21}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Practice procedures}{22}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Evaluation}{23}{subsection.6.4}
+\contentsline {section}{\numberline {7}Using the Langmuir isotherm to calculate the maximal adsorption capacity of a solid adsorbent}{24}{section.7}
+\contentsline {subsection}{\numberline {7.1}Introduction}{24}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Practice procedures}{25}{subsection.7.2}
+\contentsline {section}{\numberline {8}Investigating the iodine clock reaction. Determination of the initial rate and reactions orders}{27}{section.8}
+\contentsline {subsection}{\numberline {8.1}Introduction}{27}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Practice procedures}{28}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Evaluation}{29}{subsection.8.3}
+\contentsline {section}{\numberline {9}Investigating the kinetic salt effect}{31}{section.9}
+\contentsline {subsection}{\numberline {9.1}Introduction}{31}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Practice procedures}{34}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Evaluation}{35}{subsection.9.3}
+\contentsline {section}{\numberline {10}Investigating a ternary system}{37}{section.10}
+\contentsline {subsection}{\numberline {10.1}Introduction}{37}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Practice procedures}{39}{subsection.10.2}
+\contentsline {section}{\numberline {11}Determination of the composition of a complex by spectrophotometry}{41}{section.11}
+\contentsline {subsection}{\numberline {11.1}Introduction}{41}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Practice procedures}{43}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Evaluation}{44}{subsection.11.3}
+\contentsline {section}{Appendix A -- Safety instructions}{45}{section*.5}
+\contentsline {section}{Appendix B -- Ionic conductivity at infinite dilution}{49}{section*.6}

@@ -1,0 +1,55 @@
+\documentclass[a4paper, 12pt, twoside]{article}
+\usepackage{ae,aecompl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{textcomp}
+\usepackage{anysize}
+% left right up down
+\marginsize{3.2cm}{2.8cm}{2cm}{2cm}
+\usepackage{setspace}
+\setstretch{1.2}
+\frenchspacing
+\usepackage{chemfig}
+\usepackage{gensymb}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{indentfirst}
+\usepackage{sidecap}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\usepackage{multicol}
+\usepackage{float}
+\setcounter{tocdepth}{1}
+\pagestyle{empty}
+% uncomment for hyperlinks
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = red,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+
+
+\title{Laborpraxis für physikalische Chemie}
+\author{\emph{geschrieben von:} \\ Barna Kovács \\ Sándor Kunsági-Máté \\ András Kiss \\ Géza Nagy \\ \\ \emph{übersetzt von:} \\ András Kiss \\ \\ \\ \\ \\ \\
+\includegraphics[width=0.2\textwidth]{fig/pte_logo.eps} \\
+Abteilung für physikalische Chemie \\ Universität Pécs}
+
+\begin{document}
+
+\clearpage\maketitle
+\thispagestyle{empty}
+\newpage 
+\tableofcontents
+\newpage
+
+\input{tex_de/pk_cond.tex}
+\newpage
+\input{tex_en/ionic_conductivities.tex}
+
+\end{document}

@@ -1,8 +1,3 @@
-\fancyhead[LE,RO]{Drug decomposition -- ,,GYB''}
-\fancyhead[LO,RE]{\thesection}
-\fancyfoot[LE,RO]{\thepage}
-\fancyfoot[RE,LO]{\emph{Physical chemistry laboratory practice}}
-
 %\setcounter{section}{7}
 \section{Investigating the temperature dependence of drug decomposition}
 \subsection{Introduction}
@@ -76,13 +71,14 @@ If we measure $k$ on two different temperatures ($k_1$ and $k_2$ on $T_1$ and $T
 Alkaline hydrolysis of acetylsalicylic acid (Fig. \ref{fig:salicilsav}) is a pseudo first-order reaction. 
 \begin{figure}
 \centering
-\schemedebug{false}
-\schemestart
-	\footnotesize \chemname{\chemfig{*6(-=-(-O-[::-60]([::-60]=O)-)=(-(-[::-60]OH)=[::60]O)-=)}}{acetylsalicylic acid}
-	\footnotesize \+
-	\footnotesize \chemfig{OH^{-}}\arrow(.mid east--.mid west){->[k][]}
-	\footnotesize \chemname{\chemfig{*6(-=-(-OH)=(-([::-60]-OH)=[::60]O)-=)}}{salicylic acid} + CH$_3$COO$^-$
-\schemestop
+%\schemedebug{false}
+%\schemestart
+%	\footnotesize \chemname{\chemfig{*6(-=-(-O-[::-60]([::-60]=O)-)=(-(-[::-60]OH)=[::60]O)-=)}}{acetylsalicylic acid}
+%	\footnotesize \+
+%	\footnotesize \chemfig{OH^{-}}\arrow(.mid east--.mid west){->[k][]}
+%	\footnotesize \chemname{\chemfig{*6(-=-(-OH)=(-([::-60]-OH)=[::60]O)-=)}}{salicylic acid} + CH$_3$COO$^-$
+%\schemestop
+\includegraphics[width=1\textwidth]{fig/asa_hydrolysis.eps}
 \caption{Alkaline hydrolysis of acetylsalicylic acid.}
 \label{fig:salicilsav}
 \end{figure}
@@ -119,7 +115,7 @@ Pulverize an \emph{Aspirin} tablet in a mortar with the help of a pestle, dissol
 
 \begin{enumerate}
 \item Measured and calculated data in table (use table \ref{table:tablazatos} as reference).
-\item Calculate the rate constants (table \ref{table:seb}.) for both temperatures, and calculate standard deviation\footnote{Standard deviáció, $s=\sqrt{\frac{\Sigma(x_i-\overline{x})^2}{n-1}}$}.
+\item Calculate the rate constants (table \ref{table:seb}.) for both temperatures, and calculate standard deviation\footnote{Standard deviation, $s=\sqrt{\frac{\Sigma(x_i-\overline{x})^2}{n-1}}$}.
 \item From the temperature dependence of the rate constant, calculate the rate constant for 20 $\celsius$-on (293 K) graphically by plotting $\lg k$ as a function of $1/T$.
 \item Calculate $E$ and $A$ by substituting into the integrated form of the Arrhenius equation:
 	\begin{enumerate}
