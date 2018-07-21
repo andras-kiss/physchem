@@ -1,7 +1,9 @@
 %\setcounter{section}{1}
-\section{Determination of dissociation constants of weak acids with conductometry}
-\subsection{Introduction}
-According to Ohm's law, the current passing through between two points and the potential difference between those two points are in linear relationship:
+\section{Bestimmung des Dissoziationskonstante von schwachen Säuren mit Leitfähigkeitsmessung}
+\subsection{Einleitung}
+
+Elektrischer Widerstand ist eine Eigenschaft des Materials. Nach dem ohmschen Gesetz ist zwischen den Materialen durchpliessenden Stromstärke ($I$) und den Strom erstellenden Spannung ($U$) ein gerades Verhältniss.
+
 
 \begin{equation}
 \label{eq:ohm}
@@ -12,13 +14,13 @@ According to Ohm's law, the current passing through between two points and the p
 	R
 \end{equation}
 
-where $R$ is the factor of proportionality, called \textbf{electrical resistance}. Its dimension is ohm ($\ohm$).
+wo der Verhältnissfaktor $R$ als Widerstand des Materials genannt wird, dessen Einheit ist der ohm ($\ohm$).
+An spezifischer Widerstand verstehen wir den Quotient von der Spannung die zur Erstellung von ein 1 A starken Strom nötig ist und den Strom von 1 A. %%%
 
-Specific resistance is the longitudinal resistance of a conductor which is 1 m long and has a cross section of 1 m$^2$ (1 mm$^2$ in practice). 
-
-In electrochemistry it is often more simple to use the reciprocal of these quantities. The reciprocal of resistance is conductivity, its dimension is Siemens, S = 1/$\ohm$. The reciprocal of specific resistance is specific conductivity. The specific conductivity of an electrolyte is the conductivity we measure if the two electrodes have a surface area of 1 cm$^2$, they are 1 cm apart, they are made of an inert metal (gold, platinum), and they are submersed in the electrolyte. Its dimension is S $\cdot$ cm$^{-1}$. It depends on concentration, temperature, and it's a unique property of every material.
-
-Molar specific conductivity ($\Lambda _m$) is the ratio of the specific conductivity and the concentration:
+In der Elektrochemie ist es aus mehreren Hinsichten bevorzüglich, wenn wir den Reziprok von oben genannten Einheiten benutzen: den Reziprok vom Widerstand nenne wir Leitfähigkeit (Enheit ist Siemens, $S = 1 / \ohm$), den Reziprok von spezifischen Widerstand nenne wir spezifichen Leitfähigkeit (Einheit is $S/cm$).
+An spezifischen Leitfähigkeit von Elektrolytlösungen ($\kappa$) nennen wir die Leitfähigkeit von Elektrolytlösung zwischen zwei Leitern von erste Klasse die 1 cm entfernt von einander sind und eine Fläche von 1 $cm^2$ haben.
+Die spezifische Leitfähigkeit ist abhängig von der materilellen Qualität, von der Konzentration und von der Temperatur des Elektrolyten.
+An molar spezifische Leitfähigkeit ($\Lambda _m$) verstehen wir den Quotient von der spezifischer Leitfähigkeit und der Konzentration.
 
 \begin{equation}
 \label{eq:lambdam}
@@ -31,9 +33,12 @@ Molar specific conductivity ($\Lambda _m$) is the ratio of the specific conducti
 	\kappa V
 \end{equation}
 
-where $c$ is concentration (mol$\cdot$dm$^{-3}$), and $V$ is dilution.
+wo $c$ ist Konzentration (mol$\cdot$dm$^{-3}$), und $V$ ist Verdünnung.
 
-Kohlrausch found that the limiting molar conductivity (molar conductivity of an infinitely dilute solution) of anions and cations are additive: the conductivity of a solution of a strong electrolyte is equal to the sum of conductivity contributions from the cation and anion:
+Die molare Leitfähigkeit der unendlich verdünnten Lösüng wird molare Grenzleitfähigkeit genannt.
+Nach Kohlrausch summiert sich die Leitfähigkeit von Anionen und Kationen in dünnen Lösungen von starken Elektrolyten. 
+
+%Kohlrausch szerint erős elektrolitok híg oldataiban az anionok és kationok moláris fajlagos vezetőképessége összeadódik.
 
 \begin{equation}
 \label{eq:kohlrausch2}
@@ -43,9 +48,9 @@ Kohlrausch found that the limiting molar conductivity (molar conductivity of an 
 %	/1000
 \end{equation}
 
-where $z_a, z_k$ are the valence of the ions, $\nu _a, \nu _k$ are stochiometric factors, $\lambda _a^0$ and $\lambda _k^0$ are the limiting molar conductivities for the anions and the cations.
+wo $z_a, z_k$ sind die Ladung, $\nu _a, \nu _k$ sind die stöchiometrischen Faktoren, und $\lambda _a^0, \lambda _k^0$ sind die Grenzleitfähigkeiten von Anionen ($a$) und Kationen ($k$).
 
-The conductivity of weak electrolytes can be described as follows:
+Die Leitfähigkeit von dünnen Elektrolyten werden bezeichnet als:
 
 \begin{equation}
 \label{eq:lambdam}
@@ -55,7 +60,8 @@ The conductivity of weak electrolytes can be described as follows:
 	\lambda_0
 \end{equation}
 
-where $\alpha$ is the degree of dissociation, $\lambda _0$ is the limiting molar conductivity.
+wo $\alpha$ den Dissoziationsgrad, $\lambda _0$ die Grenzleitfähigkeit bedeutet.
+
 The dissociation constant $K_d$ of a weak acid can be calculated from its concentration and its degree of dissociation:
 
 \begin{equation}
