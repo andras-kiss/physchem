@@ -1,5 +1,7 @@
 *.pdf
-!physchem.pdf
+!physchem_de.pdf
+!physchem_en.pdf
+!physchem_hu.pdf
 !fizkem.pdf
 physchem.aux
 physchem.bbl
