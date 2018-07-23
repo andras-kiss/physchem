@@ -2,5 +2,4 @@
 \contentsline {section}{\numberline {1}Bestimmung des Dissoziationskonstante von schwachen S\IeC {\"a}uren mit Leitf\IeC {\"a}higkeitsmessung}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Theoretische Grundlage}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Beschreibung des Praktikums}{5}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Auswertung der Messungen}{7}{subsection.1.3}
-\contentsline {section}{Appendix B -- Ionic conductivity at infinite dilution}{8}{section*.2}
+\contentsline {subsection}{\numberline {1.3}Auswertung der Messungen}{6}{subsection.1.3}
