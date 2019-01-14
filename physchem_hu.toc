@@ -1,0 +1,17 @@
+\select@language {hungarian} \contentsline {section}{\numberline {1}Gy\IeC {\'o}gyszerboml\IeC {\'a}s sebess\IeC {\'e}g\IeC {\'e}nek h\IeC {\H o}m\IeC {\'e}rs\IeC {\'e}kletf\IeC {\"u}gg\IeC {\'e}se}{3}{section.1}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {1.1}Bevezet\IeC {\'e}s}{3}{subsection.1.1}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {1.2}A gyakorlat kivitelez\IeC {\'e}se}{3}{subsection.1.2}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {1.3}Beadand\IeC {\'o} eredm\IeC {\'e}nyek}{5}{subsection.1.3}% 
+\select@language {hungarian} \contentsline {section}{\numberline {2}Szelektivit\IeC {\'a}si egy\IeC {\"u}tthat\IeC {\'o} meghat\IeC {\'a}roz\IeC {\'a}sa}{7}{section.2}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {2.1}Bevezet\IeC {\'e}s}{7}{subsection.2.1}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {2.2}A gyakorlat le\IeC {\'\i }r\IeC {\'a}sa}{9}{subsection.2.2}% 
+\select@language {hungarian} \contentsline {subsubsection}{\numberline {2.2.1}A szelektivit\IeC {\'a}si egy\IeC {\"u}tthat\IeC {\'o} meghat\IeC {\'a}roz\IeC {\'a}sa kevert oldatos elj\IeC {\'a}r\IeC {\'a}ssal}{10}{subsubsection.2.2.1}% 
+\select@language {hungarian} \contentsline {subsubsection}{\numberline {2.2.2}A szelektivit\IeC {\'a}si egy\IeC {\"u}tthat\IeC {\'o} k\IeC {\"u}l\IeC {\"o}noldatos elj\IeC {\'a}r\IeC {\'a}ssal}{10}{subsubsection.2.2.2}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {2.3}A gyakorlat ki\IeC {\'e}rt\IeC {\'e}kel\IeC {\'e}se}{10}{subsection.2.3}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {2.4}Beadand\IeC {\'o} eredm\IeC {\'e}nyek}{11}{subsection.2.4}% 
+\select@language {hungarian} \contentsline {section}{\numberline {3}Gyengesav disszoci\IeC {\'a}ci\IeC {\'o}s \IeC {\'a}lland\IeC {\'o}j\IeC {\'a}nak meghat\IeC {\'a}roz\IeC {\'a}sa vezet\IeC {\'e}s m\IeC {\'e}r\IeC {\'e}s\IeC {\'e}vel}{12}{section.3}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {3.1}Bevezet\IeC {\'e}s}{12}{subsection.3.1}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {3.2}A gyakorlat le\IeC {\'\i }r\IeC {\'a}sa}{14}{subsection.3.2}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {3.3}A m\IeC {\'e}r\IeC {\'e}si eredm\IeC {\'e}nyek ki\IeC {\'e}rt\IeC {\'e}kel\IeC {\'e}se}{15}{subsection.3.3}% 
+\select@language {hungarian} \contentsline {section}{\numberline {4}Partition equilibrium of I$_2$ between two phases}{16}{section.4}% 
+\select@language {hungarian} \contentsline {subsection}{\numberline {4.1}Introduction}{16}{subsection.4.1}% 

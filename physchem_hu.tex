@@ -1,0 +1,65 @@
+\documentclass[a4paper, 12pt, twoside]{article}
+\def\magyarOptions{hyphenation=huhyphn}
+\usepackage[hungarian]{babel}
+\usepackage{ae,aecompl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{anysize}
+% left right up down
+\marginsize{3.2cm}{2.8cm}{2cm}{2cm}
+\usepackage{setspace}
+\setstretch{1.2}
+\frenchspacing
+\usepackage{chemfig}
+\usepackage{gensymb}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{indentfirst}
+\usepackage{sidecap}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\usepackage{multicol}
+\usepackage{float}
+\setcounter{tocdepth}{1}
+\pagestyle{empty}
+% uncomment for hyperlinks
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = red,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+
+
+\title{Fizikai Kémia Laboratóriumi Gyakorlatok}
+\author{Kovács Barna \\ Kunsági-Máté Sándor\\ Kiss András\\ Géza Nagy \\ Katalin Ősz \\ Gábor Lente\\ \\ \\ \\ \\ \\
+\includegraphics[width=0.2\textwidth]{fig/pte_logo.eps} \\
+Általános és Fizikai Kémia Tanszék \\ Pécsi Tudományegyetem}
+
+\begin{document}
+
+\clearpage\maketitle
+\thispagestyle{empty}
+\newpage 
+\tableofcontents
+\newpage
+
+\pagestyle{plain}
+\input{tex_hu/gyogyboml.tex}
+\newpage
+\clearpage
+\input{tex_hu/ion.tex}
+\newpage
+\clearpage
+\input{tex_hu/pkvez.tex}
+\newpage
+\clearpage
+\input{tex_hu/jod.tex}
+
+
+\end{document}
